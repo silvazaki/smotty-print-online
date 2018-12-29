@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_beranda"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_transaksi"
+            android:icon="@drawable/ic_menu_transaksi"
+            android:title="@string/nav_transaksi" />
+        <item
+            android:id="@+id/nav_akun"
+            android:icon="@drawable/ic_menu_akun"
+            android:title="@string/nav_akun" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_bantuan"
+                android:icon="@drawable/ic_menu_bantuan"
+                android:title="@string/nav_bantuan" />
+            <item
+                android:id="@+id/nav_tentang_kami"
+                android:icon="@drawable/ic_menu_info"
+                android:title="@string/nav_kami" />
+        </menu>
+    </item>
+
+</menu>
